@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+.font-lex{
+    font-family: 'Montserrat', sans-serif;
+};
+
+
+.backimg{
+    background-image:url("https://ik.imagekit.io/vpa3fwqdnd/profile_HW9E7sJq0.jpg");
+}
+
+.btn-primary{
+    @apply px-6 py-4 mb-3 mr-4 text-sm font-medium leading-normal bg-blue-700 hover:bg-blue-600 text-white rounded transition duration-200;
+}
